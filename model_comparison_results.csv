@@ -1,0 +1,5 @@
+Model,Num_Features,Train_R2,Test_R2,Test_RMSE
+Baseline - Linear,5,0.2471,0.2552,0.8734
+Baseline - Ridge,5,0.2471,0.2551,0.8734
+Expanded - Linear,8,0.4554,0.4792,0.7303
+Expanded - Ridge,8,0.4554,0.4798,0.7299
