@@ -36,7 +36,8 @@ x = ['arm_length_in', 'bmi', 'height_in','weight_lbs','wing_span_in','hand_size_
 
 &ensp;&ensp;`feature_importance.csv` - CSV of the feature importance for each position
 &ensp;&ensp;`outlier_table.csv`- Number of outliers and % of outliers for each measurement for each position
-&ensp;&ensp;`model_summary.csv`- CSV of the summary/stats of baseline vs anthro models for each position 
+&ensp;&ensp;`model_summary.csv`- CSV of the summary/stats of baseline vs anthro models for each position (based on players)
+&ensp;&ensp;`team_model_results.csv`- CSV of the anthro features vs net_epa_per_play
 
 
 
