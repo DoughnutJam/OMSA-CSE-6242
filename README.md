@@ -1,9 +1,9 @@
 # OMSA-CSE-6242
 
 
-Revamped
-
-Notebooks
+Revamped\
+\
+Notebooks\
 mockdraftable_Web_scrape --> Used to scrape https://www.mockdraftable.com/ for heihgt, weight, positions, colleges, hand_sizes, wing_span, and combine stats
   output: nfl_combine_data.csv
 get_stats --> Used to get the player and roster stats
