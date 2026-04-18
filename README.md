@@ -7,6 +7,7 @@ Revamped
 &nbsp;&nbsp;output: `nfl_combine_data.csv`
 
 **get_stats** – Used to get the player and roster stats  
+
 &nbsp;&nbsp;output:  
 &ensp;&ensp;`def_model_data.csv` – CSV containing seasonal data for defensive players + anthropometric features/combine performance + flag for missing features  
 &ensp;&ensp;`qb_model_data.csv` – CSV containing seasonal data for quarterbacks + anthropometric features/combine performance + flag for missing features  
@@ -20,6 +21,7 @@ Revamped
 ## Results 
 
 **graphs - players from eda_nb**
+
 x = ['arm_length_in', 'bmi', 'height_in','weight_lbs','wing_span_in','hand_size_in',
 &ensp;&ensp;`x_by_position` - scatterplot of measurement by position
 &ensp;&ensp;`avg_x_by_season_pos` - avg measurement by season for by position
@@ -31,6 +33,7 @@ x = ['arm_length_in', 'bmi', 'height_in','weight_lbs','wing_span_in','hand_size_
 &ensp;&ensp;`team_avg_weight_performance` - avg weight vs performance for each team
 
 **tables from eda_nb**
+
 &ensp;&ensp;`feature_importance.csv` - CSV of the feature importance for each position
 &ensp;&ensp;`outlier_table.csv`- Number of outliers and % of outliers for each measurement for each position
 &ensp;&ensp;`model_summary.csv`- CSV of the summary/stats of baseline vs anthro models for each position 
