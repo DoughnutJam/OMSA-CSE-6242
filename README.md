@@ -1,12 +1,12 @@
 # OMSA-CSE-6242
 
-nfl_combine_web_scrape --> 
-  Scrape mockdraftable.com
-  -> Get 'nfl_combine_data.csv'
 
-nfl_verse_player_stats --> Get Player Stats
-  use the position, player name, college, and draft year from nfl_combine_data to get a match to nfl_data on pro-football-reference through the nflreadpy library
-  Filter for data with a high or perfect confidence
-  Use those to get the player stats through 1999 to 2026
-  -> Overall file could use cleaning up
-  -> Get 'nfl_combine_stats.csv' & 'player_season_stats.csv'
+Revamped
+
+Notebooks
+mockdraftable_Web_scrape --> Used to scrape https://www.mockdraftable.com/ for heihgt, weight, positions, colleges, hand_sizes, wing_span, and combine stats
+  output: nfl_combine_data.csv
+get_stats --> Used to get the player and roster stats
+  output: def_model_data.csv, qb_model_data.csv, rb_model_data.csv, wr_model_data.csv, roster_model_data.csv
+eda_nb --> Use RidgeCV to find relationship between Anthro features * Performance. Compares a baseline model vs model with anthrofeatures added
+  output: visualizaitons + model results
