@@ -17,4 +17,25 @@ Revamped
 **eda_nb** – Uses RidgeCV to find relationship between Anthro features & Performance. Compares a baseline model vs model with anthro features added  
 &nbsp;&nbsp;output: visualizations + model results
 
-## Results
+## Results 
+
+**graphs - players from eda_nb**
+x = ['arm_length_in', 'bmi', 'height_in','weight_lbs','wing_span_in','hand_size_in',
+&ensp;&ensp;`x_by_position` - scatterplot of measurement by position
+&ensp;&ensp;`avg_x_by_season_pos` - avg measurement by season for by position
+&ensp;&ensp;`box_plot_x_by_position` - boxplot of measurement by position
+
+**graphs - roster**
+
+&ensp;&ensp;`team_avg_height_performance` - avg height vs performance for each team
+&ensp;&ensp;`team_avg_weight_performance` - avg weight vs performance for each team
+
+**tables from eda_nb**
+&ensp;&ensp;`feature_importance.csv` - CSV of the feature importance for each position
+&ensp;&ensp;`outlier_table.csv`- Number of outliers and % of outliers for each measurement for each position
+&ensp;&ensp;`model_summary.csv`- CSV of the summary/stats of baseline vs anthro models for each position 
+
+
+
+
+
